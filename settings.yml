@@ -1,0 +1,33 @@
+use_default_settings: true
+
+server:
+  port: 7860
+  bind_address: '0.0.0.0'
+  secret_key: 'zssdmrofficial'
+
+search:
+  default_lang: 'zh-TW'
+  autocomplete: 'google'
+  formats:
+    - html
+    - json
+
+ui:
+  default_locale: ''
+
+engines:
+  - name: google
+    engine: google
+    disabled: false
+
+  - name: bing
+    engine: bing
+    disabled: true
+
+  - name: brave
+    engine: brave
+    disabled: false
+
+  - name: duckduckgo
+    engine: duckduckgo
+    disabled: false
