@@ -1,7 +1,7 @@
 use_default_settings: true
 
 server:
-  port: 7860
+  port: 10000
   bind_address: '0.0.0.0'
   secret_key: 'zssdmrofficial'
 

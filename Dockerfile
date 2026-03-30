@@ -1,6 +1,6 @@
 FROM searxng/searxng:latest
 
-ENV GRANIAN_PORT=7860 \
+ENV GRANIAN_PORT=10000 \
     GRANIAN_HOST=0.0.0.0
 
 COPY settings.yml /etc/searxng/settings.yml
